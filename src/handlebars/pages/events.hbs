@@ -1,0 +1,11 @@
+{{> global/head }}
+<body>
+<div class="container events">
+	{{> global/menu (load_json "src/data/pages/home.json") }}
+	<div class="col-xs-12 col-sm-10">
+		{{#each events}}
+		{{/each}}
+	</div>
+</div>
+{{> global/scripts }}
+</body>

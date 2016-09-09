@@ -3,8 +3,12 @@ $light: 100;
 $regular: 400;
 $bold: 600;
 
-// Global base fonts/sizing [to be changed to reference Samung fonts or other]
+// Global base fonts/sizing [to be changed to reference Samsung fonts or other]
 $base-font-family: sans-serif;
 $base-font-weight: $regular;
-$base-font-size: 13px;
+$base-font-size: 10px;
 $base-line-height: 1.4;
+
+body {
+  font-size: $base-font-size;
+}

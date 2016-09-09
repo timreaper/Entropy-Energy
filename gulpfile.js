@@ -119,15 +119,6 @@ gulp.task('browser_sync', function () {
 });
 
 /**
- * Fonts
- *       Compiles all the Javascript files in the JS directory
- ***/
-gulp.task('fonts', function () {
-	return gulp.src(fontSrc + '/**')
-		.pipe(gulp.dest(fontDest));
-});
-
-/**
  * Handlebars (Index)
  *       Runs through all the JSON files in the pages folder in the data directory,
  *       pumps them through the index Handlebars template and then outputs HTML files
@@ -296,7 +287,7 @@ gulp.task('watch', ['browser_sync'], function () {
  * Default (THE MOST IMPORTANT TASK OF ALL)
  *
  ***/
-gulp.task('default', ['fonts', 'handlebars_index', 'handlebars_pages', 'images', 'js_app', 'js_libraries', 'scss_app', 'scss_libraries'], function () {
+gulp.task('default', ['handlebars_index', 'handlebars_pages', 'images', 'js_app', 'js_libraries', 'scss_app', 'scss_libraries'], function () {
 	console.log('Gulp (Default) complete.');
 });
 

@@ -1,7 +1,7 @@
 {{> global/head }}
 <body>
 <div class="container home">
-	{{> global/menu menu }}
+	{{> global/menu (load_json "src/data/pages/home.json") }}
 </div>
 {{> global/scripts }}
 </body>

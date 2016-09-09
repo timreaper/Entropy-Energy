@@ -1,2 +1,17 @@
 {
+  "contact": {
+	"bookings": {
+	  "description": "Basic Rhythm (Live or Oldskool Vinyl Set) / Imaginary Forces (Live with or without MCs) <br> For all bookings, please contact:",
+	  "emails": {
+		"0": "marcus@lb-agency.net",
+		"1": "info@lb-agency.net"
+	  }
+	},
+	"info": {
+	  "description": "For all other information, please contact:",
+	  "emails": {
+		"0": "contact@entropyandenergy.com"
+	  }
+	}
+  }
 }
