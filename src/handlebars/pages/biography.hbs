@@ -1,0 +1,20 @@
+{{> global/head }}
+<body>
+<div class="container biography">
+	{{> global/menu (load_json "src/data/pages/home.json") }}
+	<div class="col-xs-12 col-sm-10">
+		<p>
+			{{ paragraphs.0.text }}
+		</p>
+
+		<p>
+			{{ paragraphs.1.text }}
+		</p>
+
+		<p>
+			{{ paragraphs.2.text }}
+		</p>
+	</div>
+</div>
+{{> global/scripts }}
+</body>

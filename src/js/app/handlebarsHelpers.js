@@ -16,11 +16,21 @@ if (typeof module !== 'undefined') {
 		});
 
 		/**
-		 * JSON
+		 * Display JSON
 		 *        Returns back JS object when passed in a Handlebars object
 		 ***/
-		Handlebars.registerHelper('json', function (context) {
+		Handlebars.registerHelper('display_json', function (context) {
 			return JSON.stringify(context);
+		});
+
+		/**
+		 * Load JSON
+		 *        Loads local JSON file
+		 ***/
+		Handlebars.registerHelper('load_json', function (json_path) {
+			var fs = require('fs');
+			var obj = fs.readFileSync(json_path, 'utf-8');
+			return JSON.parse(obj.replace(/&quot;/g,'"'));
 		});
 	};
 }
