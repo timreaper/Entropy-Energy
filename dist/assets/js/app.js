@@ -1,0 +1,1 @@
+"undefined"!=typeof module&&(module.exports.register=function(e){e.registerHelper("load_layout",function(r,n){var t=e.partials[r];return new e.SafeString(t(n))}),e.registerHelper("json",function(e){return JSON.stringify(e)})});

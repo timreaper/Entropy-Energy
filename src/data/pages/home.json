@@ -1,0 +1,24 @@
+{
+  "menu": {
+    "0": {
+      "link": "/news",
+      "name": "News"
+    },
+    "1": {
+      "link": "/biography",
+      "name": "Biography"
+    },
+    "2": {
+      "link": "/discography",
+      "name": "Discography"
+    },
+    "3": {
+      "link": "/events",
+      "name": "Events"
+    },
+    "4": {
+      "link": "/contact",
+      "name": "Contact"
+    }
+  }
+}
