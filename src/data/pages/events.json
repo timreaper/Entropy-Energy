@@ -1,2 +1,44 @@
 {
+  "aliases": {
+	"0": {
+	  "bookings": {
+		"0": {
+		  "country": "Germany",
+		  "date": "26.08.2016",
+		  "event": {
+			"link": "http://www.berlin-atonal.com",
+			"name": "Berlin Atonal"
+		  }
+		},
+		"1": {
+		  "country": "Italy",
+		  "date": "15.09.2016",
+		  "event": {
+			"name": "Art Base"
+		  }
+		}
+	  },
+	  "name": "Imaginary Forces"
+	},
+	"1": {
+	  "bookings": {
+		"0": {
+		  "country": "United Kingdom",
+		  "date": "30.09.2016",
+		  "event": {
+			"link": "http://www.ryewax.com",
+			"name": "DBA x Room 237"
+		  }
+		},
+		"1": {
+		  "country": "United Kingdom",
+		  "date": "08.10.2016",
+		  "event": {
+			"name": "Coroners Court"
+		  }
+		}
+	  },
+	  "name": "Basic Rhythm"
+	}
+  }
 }

@@ -6,29 +6,29 @@
 		"0": {
 		  "format": "12\"",
 		  "label": {
+			"link": "https://sleepcodes.bandcamp.com/",
+			"name": "Sleep Codes"
+		  },
+		  "title": "Enumeration",
+		  "year": "2012"
+		},
+		"1": {
+		  "format": "Cassette",
+		  "label": {
 			"link": "http://fangbomb.com",
 			"name": "Fang Bomb"
 		  },
-		  "title": "Visitation",
-		  "year": "2016"
-		},
-		"1": {
-		  "format": "12\"",
-		  "label": {
-			"link": "http://halcyonveil.com/",
-			"name": "Halcyon Veil"
-		  },
-		  "title": "And What?",
-		  "year": "2016"
+		  "title": "Begotten",
+		  "year": "2013"
 		},
 		"2": {
 		  "format": "12\"",
 		  "label": {
-			"link": "http://bedouinrecords.com/",
-			"name": "Bedouin Records"
+			"link": "https://sleepcodes.bandcamp.com/",
+			"name": "Sleep Codes"
 		  },
-		  "title": "Shift Work",
-		  "year": "2015"
+		  "title": "Corner Crew EP",
+		  "year": "2014"
 		},
 		"3": {
 		  "format": "CD",
@@ -42,29 +42,29 @@
 		"4": {
 		  "format": "12\"",
 		  "label": {
-			"link": "https://sleepcodes.bandcamp.com/",
-			"name": "Sleep Codes"
+			"link": "http://bedouinrecords.com/",
+			"name": "Bedouin Records"
 		  },
-		  "title": "Corner Crew EP",
-		  "year": "2014"
+		  "title": "Shift Work",
+		  "year": "2015"
 		},
 		"5": {
-		  "format": "Cassette",
+		  "format": "12\"",
 		  "label": {
-			"link": "http://fangbomb.com",
-			"name": "Fang Bomb"
+			"link": "http://halcyonveil.com/",
+			"name": "Halcyon Veil"
 		  },
-		  "title": "Begotten",
-		  "year": "2013"
+		  "title": "And What?",
+		  "year": "2016"
 		},
 		"6": {
 		  "format": "12\"",
 		  "label": {
-			"link": "https://sleepcodes.bandcamp.com/",
-			"name": "Sleep Codes"
+			"link": "http://fangbomb.com",
+			"name": "Fang Bomb"
 		  },
-		  "title": "Enumeration",
-		  "year": "2012"
+		  "title": "Visitation",
+		  "year": "2016"
 		}
 	  }
 	},

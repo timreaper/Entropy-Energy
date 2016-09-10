@@ -4,29 +4,32 @@
 	{{> global/menu (load_json "src/data/pages/home.json") }}
 	<div class="col-xs-12 col-sm-10">
 		{{#each aliases}}
-			<p>as {{ name }}</p>
-			<table class="table table-condensed table-responsive">
-				<thead>
-				<tr>
-					<th width="25%">Title</th>
-					<th width="25%">Year</th>
-					<th width="25%">Format</th>
-					<th width="25%">Label</th>
-				</tr>
-				</thead>
-
-				<tbody>
-				{{#each releases}}
+			<div>
+				<table class="table table-condensed table-responsive">
+					<thead>
 					<tr>
-						<td>{{ title }}</td>
-						<td>{{ year }}</td>
-						<td>{{ format }}</td>
-						<td><a href="{{ label.link }}" title="{{ label.name }}">{{ label.name }}</a></td>
+						<th width="20%">Alias</th>
+						<th width="20%">Title</th>
+						<th width="20%">Year</th>
+						<th width="20%">Format</th>
+						<th width="20%">Label</th>
 					</tr>
-				{{/each}}
-				<tr></tr>
-				</tbody>
-			</table>
+					</thead>
+
+					<tbody>
+					{{#each_reverse releases}}
+						<tr>
+							<td>{{ ../name }}</td>
+							<td>{{ title }}</td>
+							<td>{{ year }}</td>
+							<td>{{ format }}</td>
+							<td><a href="{{ label.link }}" title="{{ label.name }}">{{ label.name }}</a></td>
+						</tr>
+					{{/each_reverse}}
+					<tr></tr>
+					</tbody>
+				</table>
+			</div>
 		{{/each}}
 	</div>
 </div>
