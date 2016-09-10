@@ -19,7 +19,7 @@
 					<tbody>
 					{{#each_reverse releases}}
 						<tr>
-							<td>{{ ../name }}</td>
+							<td>{{ ../name }}  {{#if collaborators}} & {{collaborators}} {{/if}}</td>
 							<td>{{ title }}</td>
 							<td>{{ year }}</td>
 							<td>{{ format }}</td>

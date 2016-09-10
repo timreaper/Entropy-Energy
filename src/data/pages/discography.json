@@ -79,6 +79,16 @@
 		  },
 		  "title": "Raw Trax",
 		  "year": "2016"
+		},
+		"1": {
+		  "collaborators": "Rabit",
+		  "format": "EP",
+		  "label": {
+			"link": "http://typerecords.com/",
+			"name": "Type"
+		  },
+		  "title": "Slewage EP",
+		  "year": "2016"
 		}
 	  }
 	}
