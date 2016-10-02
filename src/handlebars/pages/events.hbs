@@ -10,13 +10,7 @@
 					{{#each_reverse bookings}}
 						<tr>
 							<td width="25%">{{ ../name }}</td>
-							<td width="25%">
-								{{#if club.link}}
-									<a href="{{ club.link }}" title="{{ club.name }}">{{ club.name }}</a>
-								{{else}}
-									<p title="{{ club.name }}">{{ club.name }}</p>
-								{{/if}}
-							</td>
+							<td width="25%">{{ club.name }}</td>
 							<td width="25%">{{ location }}</td>
 							<td width="25%">{{ date }}</td>
 						</tr>

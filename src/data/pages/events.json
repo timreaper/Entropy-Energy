@@ -87,11 +87,10 @@
 		  }
 		},
 		"12": {
-		  "location": "Germany",
+		  "location": "Berlin",
 		  "date": "26.08.2016",
 		  "club": {
-			"link": "http://www.berlin-atonal.com",
-			"name": "Berlin Atonal"
+			"name": "Atonal"
 		  }
 		},
 		"13": {
@@ -124,7 +123,6 @@
 		  "location": "London",
 		  "date": "30.09.2016",
 		  "club": {
-			"link": "http://www.ryewax.com",
 			"name": "Rye Wax"
 		  }
 		},
