@@ -22,7 +22,7 @@ require('../blog/wp-blog-header.php');
 
 <div class="container news">
 	<div class="top-space"></div>
-	<nav class="menu col-xs-10 col-sm-2">
+	<nav class="menu col-xs-12 col-sm-2">
 		<ul>
 			<li><a href="/news">News</a></li>
 			<li><a href="/biography">Biography</a></li>
