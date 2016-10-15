@@ -30,6 +30,8 @@ var handlebarsSrc = srcRoot + '/handlebars';
 var pageSrc = handlebarsSrc + '/pages';
 var partialSrc = handlebarsSrc + '/partials';
 
+var htmlSrc = srcRoot + '/html';
+
 /**
  * Destination Paths
  ***/
@@ -189,6 +191,27 @@ gulp.task('handlebars_pages', function () {
 });
 
 /**
+ * HTML
+ *       Runs through all the HTML & PHP files in the HTML folder in the data directory,
+ *       minifies them and then outputs them in dist directory.
+ ***/
+gulp.task('html', function () {
+	return gulp.src(htmlSrc + '/**/*.{php,html}')
+		.pipe(print(function (filepath) {
+			return "HTML: " + filepath;
+		}))
+		.pipe(htmlMin({
+			collapseWhitespace: true,
+			minifyCSS: true,
+			minifyJS: true,
+			removeStyleLinkTypeAttributes: true,
+			removeScriptTypeAttributes: true,
+			useShortDoctype: true
+		}))
+		.pipe(gulp.dest(distRoot))
+});
+
+/**
  * Images
  *      Deletes all images in dist, minifies all the images files in source & them moves them into dist
  ***/
@@ -287,7 +310,7 @@ gulp.task('watch', ['browser_sync'], function () {
  * Default (THE MOST IMPORTANT TASK OF ALL)
  *
  ***/
-gulp.task('default', ['handlebars_index', 'handlebars_pages', 'images', 'js_app', 'js_libraries', 'scss_app', 'scss_libraries'], function () {
+gulp.task('default', ['handlebars_index', 'handlebars_pages', 'html', 'images', 'js_app', 'js_libraries', 'scss_app', 'scss_libraries'], function () {
 	console.log('Gulp (Default) complete.');
 });
 
@@ -311,7 +334,7 @@ gulp.task('handlebars', ['handlebars_index', 'handlebars_pages'], function () {
  * Quick (Only deals with Handlebars, JS & SCSS)
  *
  ***/
-gulp.task('quick', ['handlebars_index', 'handlebars_pages', 'js_app', 'js_libraries', 'scss_app', 'scss_libraries'], function () {
+gulp.task('quick', ['handlebars_index', 'handlebars_pages', 'html', 'js_app', 'js_libraries', 'scss_app', 'scss_libraries'], function () {
 	console.log('Gulp (Quick) complete.');
 });
 
