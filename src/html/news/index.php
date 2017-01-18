@@ -7,7 +7,6 @@
 	<link rel="favicon" href="/assets/images/icons/favicon.png">
 	<link rel="apple-touch-icon" href="/assets/images/icons/favicon2.png">
 	<title>Entropy & Energy</title>
-	<meta name="description" content="Entropy & Energy.">
 	<meta content="Imaginary Forces, Sleep Codes, Basic Rhythm, Type, Fang Bomb, Bedouin" name="keywords">
 	<link rel="stylesheet" href="/assets/css/libraries.css">
 	<link rel="stylesheet" href="/assets/css/app.css">
@@ -65,5 +64,9 @@ require('../blog/wp-blog-header.php');
 		</div>
 	</div>
 </div>
+
+<script src="/assets/js/libraries.js"></script>
+<script src="/assets/js/app.js"></script>
+
 </body>
 </html>

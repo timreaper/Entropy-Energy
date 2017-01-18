@@ -89,6 +89,15 @@
 		  },
 		  "title": "Slewage EP",
 		  "year": "2016"
+		},
+		"2": {
+		  "format": "12\"",
+		  "label": {
+			"link": "http://typerecords.com/",
+			"name": "Type"
+		  },
+		  "title": "The Basics",
+		  "year": "2017"
 		}
 	  }
 	}

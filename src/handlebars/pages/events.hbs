@@ -3,10 +3,10 @@
 <div class="container events">
 	{{> global/menu (load_json "src/data/pages/home.json") }}
 	<div class="col-xs-12 col-sm-10">
-		{{#each aliases}}
-			<div>
-				<table class="table table-condensed table-responsive">
-					<tbody>
+		<div>
+			<table class="table table-condensed table-responsive">
+				<tbody>
+				{{#each aliases}}
 					{{#each_reverse bookings}}
 						<tr>
 							<td width="25%">{{ ../name }}</td>
@@ -15,11 +15,10 @@
 							<td width="25%">{{ date }}</td>
 						</tr>
 					{{/each_reverse}}
-					<tr></tr>
-					</tbody>
-				</table>
-			</div>
-		{{/each}}
+				{{/each}}
+				</tbody>
+			</table>
+		</div>
 	</div>
 </div>
 {{> global/scripts }}

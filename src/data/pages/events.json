@@ -99,6 +99,20 @@
 		  "club": {
 			"name": "Art Base"
 		  }
+		},
+		"14": {
+		  "location": "Bristol",
+		  "date": "22.11.2016",
+		  "club": {
+			"name": "The Louisiana"
+		  }
+		},
+		"15": {
+		  "location": "Manchester",
+		  "date": "04.03.2017",
+		  "club": {
+			"name": "The White Hotel"
+		  }
 		}
 	  },
 	  "name": "Imaginary Forces"
@@ -131,6 +145,13 @@
 		  "date": "08.10.2016",
 		  "club": {
 			"name": "Coroners Court"
+		  }
+		},
+		"4": {
+		  "location": "Bristol",
+		  "date": "24.03.2017",
+		  "club": {
+			"name": "Take Five"
 		  }
 		}
 	  },

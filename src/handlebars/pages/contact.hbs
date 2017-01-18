@@ -3,17 +3,6 @@
 <div class="container contact">
 	{{> global/menu (load_json "src/data/pages/home.json") }}
 	<div class="col-xs-12 col-sm-10">
-		<p class="no-margin">{{{ contact.bookings.description }}}</p>
-		{{#each contact.bookings.emails}}
-			{{#if @last}}
-				<a href="mailto:{{ this }}">{{ this }}</a>
-				<br> <br>
-			{{else}}
-				<a href="mailto:{{ this }}">{{ this }}</a>
-				<br>
-			{{/if}}
-		{{/each}}
-
 		<p class="no-margin">{{ contact.info.description }}</p>
 		{{#each contact.info.emails}}
 			{{#if @last}}
