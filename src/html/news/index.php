@@ -16,7 +16,7 @@
 <?php
 /* Short and sweet */
 define('WP_USE_THEMES', false);
-require('../blog/wp-blog-header.php');
+require('wp-blog-header.php');
 ?>
 
 <div class="container news">
@@ -31,35 +31,33 @@ require('../blog/wp-blog-header.php');
 		</ul>
 	</nav>
 	<div class="col-xs-12 col-sm-10">
-		<?php if (have_posts()) : while (have_posts()) :
-		the_post(); ?>
+		<?php
+			if ( have_posts() ) :
 
-		<!-- The following tests if the current post is in category 3. -->
-		<!-- If it is, the div box is given the CSS class "post-cat-three". -->
-		<!-- Otherwise, the div box will be given the CSS class "post". -->
-		<?php if (in_category('3')) { ?>
-		<div class="post-cat-three">
-			<?php } else { ?>
-			<div class="post">
-				<?php } ?>
+				/* Start the Loop */
+				while ( have_posts() ) : the_post();
 
+					/*
+					 * Include the Post-Format-specific template for the content.
+					 * If you want to override this in a child theme, then include a file
+					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+					 */
+					get_template_part( 'template-parts/post/content', get_post_format() );
 
-				<!-- Display the Post's Content in a div box. -->
-				<div class="entry">
-					<?php the_content(); ?>
-				</div>
+				endwhile;
 
-			</div> <!-- closes the first div box -->
+				the_posts_pagination( array(
+					'prev_text' => twentyseventeen_get_svg( array( 'icon' => 'arrow-left' ) ) . '<span class="screen-reader-text">' . __( 'Previous page', 'twentyseventeen' ) . '</span>',
+					'next_text' => '<span class="screen-reader-text">' . __( 'Next page', 'twentyseventeen' ) . '</span>' . twentyseventeen_get_svg( array( 'icon' => 'arrow-right' ) ),
+					'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentyseventeen' ) . ' </span>',
+				) );
 
-			<!-- Stop The Loop (but note the "else:" - see next line). -->
-			<?php endwhile; else: ?>
+			else :
 
-				<!-- The very first "if" tested to see if there were any Posts to -->
-				<!-- display.  This "else" part tells what do if there weren't any. -->
-				<p>Sorry, no posts matched your criteria.</p>
+				get_template_part( 'template-parts/post/content', 'none' );
 
-				<!-- REALLY stop The Loop. -->
-			<?php endif; ?>
+			endif;
+			?>
 
 		</div>
 	</div>

@@ -1,161 +1,214 @@
 {
-  "aliases": {
-	"0": {
-	  "bookings": {
-		"0": {
-		  "location": "London",
-		  "date": "06.04.2013",
-		  "club": {
-			"name": "Horse Hospital"
-		  }
-		},
-		"1": {
-		  "location": "London",
-		  "date": "18.02.2014",
-		  "club": {
-			"name": "Power Lunches"
-		  }
-		},
-		"2": {
-		  "location": "London",
-		  "date": "22.06.2014",
-		  "club": {
-			"name": "Power Lunches"
-		  }
-		},
-		"3": {
-		  "location": "Stockholm",
-		  "date": "05.10.2014",
-		  "club": {
-			"name": "EMS"
-		  }
-		},
-		"4": {
-		  "location": "London",
-		  "date": "16.11.2014",
-		  "club": {
-			"name": "Hysteria"
-		  }
-		},
-		"5": {
-		  "location": "Leipzig",
-		  "date": "17.01.2015",
-		  "club": {
-			"name": "IfZ"
-		  }
-		},
-		"6": {
-		  "location": "Stockholm",
-		  "date": "24.02.2015",
-		  "club": {
-			"name": "Fylkingen"
-		  }
-		},
-		"7": {
-		  "location": "London",
-		  "date": "06.11.2015",
-		  "club": {
-			"name": "New River Studios"
-		  }
-		},
-		"8": {
-		  "location": "Stockholm",
-		  "date": "24.03.2016",
-		  "club": {
-			"name": "Under Bron"
-		  }
-		},
-		"9": {
-		  "location": "Tokyo",
-		  "date": "04.05.2016",
-		  "club": {
-			"name": "Saloon"
-		  }
-		},
-		"10": {
-		  "location": "Nagoya",
-		  "date": "07.05.2016",
-		  "club": {
-			"name": "Club JB's"
-		  }
-		},
-		"11": {
-		  "location": "Osaka",
-		  "date": "08.05.2016",
-		  "club": {
-			"name": "Circus"
-		  }
-		},
-		"12": {
-		  "location": "Berlin",
-		  "date": "26.08.2016",
-		  "club": {
-			"name": "Atonal"
-		  }
-		},
-		"13": {
-		  "location": "Milan",
-		  "date": "15.09.2016",
-		  "club": {
-			"name": "Art Base"
-		  }
-		},
-		"14": {
-		  "location": "Bristol",
-		  "date": "22.11.2016",
-		  "club": {
-			"name": "The Louisiana"
-		  }
-		},
-		"15": {
-		  "location": "Manchester",
-		  "date": "04.03.2017",
-		  "club": {
-			"name": "The White Hotel"
-		  }
-		}
+  "bookings": [
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
 	  },
-	  "name": "Imaginary Forces"
+	  "location": "London",
+	  "date": "06.04.2013",
+	  "club": {
+		"name": "Horse Hospital"
+	  }
 	},
-	"1": {
-	  "bookings": {
-		"0": {
-		  "location": "London",
-		  "date": "07.11.2015",
-		  "club": {
-			"name": "The Bunker"
-		  }
-		},
-		"1": {
-		  "location": "Berlin",
-		  "date": "08.07.2016",
-		  "club": {
-			"name": "Berghain"
-		  }
-		},
-		"2": {
-		  "location": "London",
-		  "date": "30.09.2016",
-		  "club": {
-			"name": "Rye Wax"
-		  }
-		},
-		"3": {
-		  "location": "Bristol",
-		  "date": "08.10.2016",
-		  "club": {
-			"name": "Coroners Court"
-		  }
-		},
-		"4": {
-		  "location": "Bristol",
-		  "date": "24.03.2017",
-		  "club": {
-			"name": "Take Five"
-		  }
-		}
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
 	  },
-	  "name": "Basic Rhythm"
+	  "location": "London",
+	  "date": "18.02.2014",
+	  "club": {
+		"name": "Power Lunches"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "London",
+	  "date": "22.06.2014",
+	  "club": {
+		"name": "Power Lunches"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "Stockholm",
+	  "date": "05.10.2014",
+	  "club": {
+		"name": "EMS"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "London",
+	  "date": "16.11.2014",
+	  "club": {
+		"name": "Hysteria"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "Leipzig",
+	  "date": "17.01.2015",
+	  "club": {
+		"name": "IfZ"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "Stockholm",
+	  "date": "24.02.2015",
+	  "club": {
+		"name": "Fylkingen"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "London",
+	  "date": "06.11.2015",
+	  "club": {
+		"name": "New River Studios"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Basic Rhythm"
+	  },
+	  "location": "London",
+	  "date": "07.11.2015",
+	  "club": {
+		"name": "The Bunker"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "Stockholm",
+	  "date": "24.03.2016",
+	  "club": {
+		"name": "Under Bron"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "Tokyo",
+	  "date": "04.05.2016",
+	  "club": {
+		"name": "Saloon"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "Nagoya",
+	  "date": "07.05.2016",
+	  "club": {
+		"name": "Club JB's"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "Osaka",
+	  "date": "08.05.2016",
+	  "club": {
+		"name": "Circus"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Basic Rhythm"
+	  },
+	  "location": "Berlin",
+	  "date": "08.07.2016",
+	  "club": {
+		"name": "Berghain"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "Berlin",
+	  "date": "26.08.2016",
+	  "club": {
+		"name": "Atonal"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "Milan",
+	  "date": "15.09.2016",
+	  "club": {
+		"name": "Art Base"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Basic Rhythm"
+	  },
+	  "location": "London",
+	  "date": "30.09.2016",
+	  "club": {
+		"name": "Rye Wax"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Basic Rhythm"
+	  },
+	  "location": "Bristol",
+	  "date": "08.10.2016",
+	  "club": {
+		"name": "Coroners Court"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "Bristol",
+	  "date": "22.11.2016",
+	  "club": {
+		"name": "The Louisiana"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Imaginary Forces"
+	  },
+	  "location": "Manchester",
+	  "date": "04.03.2017",
+	  "club": {
+		"name": "The White Hotel"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Basic Rhythm"
+	  },
+	  "location": "Prestatyn",
+	  "date": "21.04.2017",
+	  "club": {
+		"name": "Safe As Milk"
+	  }
 	}
-  }
+  ]
 }
