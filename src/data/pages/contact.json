@@ -1,16 +1,12 @@
 {
   "contact": {
 	"bookings": {
-	  "description": "Bookings",
-	  "emails": {
-		"0": "marcus@lb-agency.net"
-	  }
+	  "description": "For bookings",
+	  "email": "bookings@entropyandenergy.com"
 	},
 	"info": {
-	  "description": "For bookings and all other enquiries",
-	  "emails": {
-		"0": "contact@entropyandenergy.com"
-	  }
+	  "description": "For all other enquiries",
+	  "email": "contact@entropyandenergy.com"
 	}
   }
 }

@@ -1,70 +1,16 @@
 {
   "aliases": {
 	"0": {
-	  "name": "Imaginary Forces",
+	  "name": "East Man",
 	  "releases": {
 		"0": {
-		  "format": "12\"",
+		  "format": "LP",
 		  "label": {
-			"link": "https://sleepcodes.bandcamp.com/",
-			"name": "Sleep Codes"
+			"link": "planet.mu",
+			"name": "Planet Mu"
 		  },
-		  "title": "Enumeration",
-		  "year": "2012"
-		},
-		"1": {
-		  "format": "Cassette",
-		  "label": {
-			"link": "http://fangbomb.com",
-			"name": "Fang Bomb"
-		  },
-		  "title": "Begotten",
-		  "year": "2013"
-		},
-		"2": {
-		  "format": "12\"",
-		  "label": {
-			"link": "https://sleepcodes.bandcamp.com/",
-			"name": "Sleep Codes"
-		  },
-		  "title": "Corner Crew EP",
-		  "year": "2014"
-		},
-		"3": {
-		  "format": "CD",
-		  "label": {
-			"link": "http://entracte.co.uk/",
-			"name": "Entr'acte"
-		  },
-		  "title": "Low Key Movements",
-		  "year": "2015"
-		},
-		"4": {
-		  "format": "12\"",
-		  "label": {
-			"link": "http://bedouinrecords.com/",
-			"name": "Bedouin Records"
-		  },
-		  "title": "Shift Work",
-		  "year": "2015"
-		},
-		"5": {
-		  "format": "12\"",
-		  "label": {
-			"link": "http://halcyonveil.com/",
-			"name": "Halcyon Veil"
-		  },
-		  "title": "And What?",
-		  "year": "2016"
-		},
-		"6": {
-		  "format": "12\"",
-		  "label": {
-			"link": "http://fangbomb.com",
-			"name": "Fang Bomb"
-		  },
-		  "title": "Visitation",
-		  "year": "2016"
+		  "title": "Red, White & Zero",
+		  "year": "TBA"
 		}
 	  }
 	},
