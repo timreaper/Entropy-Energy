@@ -5,6 +5,17 @@
 			<li>
 				<a href="{{ link }}">{{ name }}</a>
 			</li>
+			{{#if menu.links.sublinks}}
+				<li>
+					<ul>
+						{{#each menu.links.sublinks}}
+							<li>
+								<a href="{{../link}}{{link}}">{{ name }}</a>
+							</li>
+						{{/each}}
+					</ul>
+				</li>
+			{{/if}}
 		{{/each}}
 	</ul>
 </nav>

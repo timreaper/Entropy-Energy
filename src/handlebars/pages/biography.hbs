@@ -1,19 +1,13 @@
-{{> global/head }}
+{{> global/head title='Biography' }}
 <body>
 <div class="container biography">
 	{{> global/menu (load_json "src/data/pages/home.json") }}
 	<div class="col-xs-12 col-sm-7">
-		<p>
-			{{ paragraphs.0.text }}
-		</p>
-
-		<p>
-			{{ paragraphs.1.text }}
-		</p>
-
-		<p>
-			{{ paragraphs.2.text }}
-		</p>
+		{{#each paragraphs}}
+			<p>
+				{{ text }}
+			</p>
+		{{/each}}
 	</div>
 </div>
 {{> global/scripts }}

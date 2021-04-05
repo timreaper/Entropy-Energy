@@ -1,10 +1,37 @@
-.index{
-  &__image{
-	position: absolute;
-	left: 50%;
+@import "../../libraries/bootstrap/bootstrap/variables";
+
+.index {
+  position: relative;
+
+  &__images {
+	position: fixed;
 	top: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+	left: 50%;
 	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 100%;
+
+	@media screen and (max-width: $screen-sm-min) {
+	  position: relative;
+	  top: 0;
+	  left: 0;
+	  transform: none;
+	}
+
+	&__image {
+	  padding: 10px;
+	  position: relative;
+	  display: inline-block;
+	  max-width: 50%;
+
+	  @media screen and (max-width: $screen-sm-min) {
+		max-width: 100%;
+		display: block;
+	  }
+
+	  img {
+		max-width: 100%
+	  }
+	}
   }
 }

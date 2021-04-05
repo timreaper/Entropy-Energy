@@ -1,26 +1,36 @@
 {
   "menu": {
-	"links": {
-	  "0": {
+	"links": [
+	  {
 		"link": "/news",
-		"name": "News"
+		"name": "News",
+		"sublinks" : [
+		  {
+			"link": "/basic-rhythm",
+			"name": "Basic Rhythm"
+		  },
+		  {
+			"link": "/east-man",
+			"name": "East Man"
+		  }
+		]
 	  },
-	  "1": {
-		"link": "/biography",
-		"name": "Biography"
-	  },
-	  "2": {
-		"link": "/discography",
-		"name": "Discography"
-	  },
-	  "3": {
+	  {
 		"link": "/events",
 		"name": "Events"
 	  },
-	  "4": {
+	  {
+		"link": "/discography",
+		"name": "Discography"
+	  },
+	  {
+		"link": "/biography",
+		"name": "Biography"
+	  },
+	  {
 		"link": "/contact",
 		"name": "Contact"
 	  }
-	}
+	]
   }
 }

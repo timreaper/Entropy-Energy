@@ -6,6 +6,10 @@
 	position: fixed;
 	li {
 	  list-style: none;
+	  ul {
+		position: relative;
+		margin-left: 10px;
+	  }
 	  a {
 		color: black;
 		font-size: 10px;

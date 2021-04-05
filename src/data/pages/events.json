@@ -2,77 +2,7 @@
   "bookings": [
 	{
 	  "alias": {
-		"name": "Imaginary Forces"
-	  },
-	  "location": "London",
-	  "date": "06.04.2013",
-	  "club": {
-		"name": "Horse Hospital"
-	  }
-	},
-	{
-	  "alias": {
-		"name": "Imaginary Forces"
-	  },
-	  "location": "London",
-	  "date": "18.02.2014",
-	  "club": {
-		"name": "Power Lunches"
-	  }
-	},
-	{
-	  "alias": {
-		"name": "Imaginary Forces"
-	  },
-	  "location": "London",
-	  "date": "22.06.2014",
-	  "club": {
-		"name": "Power Lunches"
-	  }
-	},
-	{
-	  "alias": {
-		"name": "Imaginary Forces"
-	  },
-	  "location": "Stockholm",
-	  "date": "05.10.2014",
-	  "club": {
-		"name": "EMS"
-	  }
-	},
-	{
-	  "alias": {
-		"name": "Imaginary Forces"
-	  },
-	  "location": "London",
-	  "date": "16.11.2014",
-	  "club": {
-		"name": "Hysteria"
-	  }
-	},
-	{
-	  "alias": {
-		"name": "Imaginary Forces"
-	  },
-	  "location": "Leipzig",
-	  "date": "17.01.2015",
-	  "club": {
-		"name": "IfZ"
-	  }
-	},
-	{
-	  "alias": {
-		"name": "Imaginary Forces"
-	  },
-	  "location": "Stockholm",
-	  "date": "24.02.2015",
-	  "club": {
-		"name": "Fylkingen"
-	  }
-	},
-	{
-	  "alias": {
-		"name": "Imaginary Forces"
+		"name": "East Man"
 	  },
 	  "location": "London",
 	  "date": "06.11.2015",
@@ -92,7 +22,7 @@
 	},
 	{
 	  "alias": {
-		"name": "Imaginary Forces"
+		"name": "Basic Rhythm"
 	  },
 	  "location": "Stockholm",
 	  "date": "24.03.2016",
@@ -102,17 +32,17 @@
 	},
 	{
 	  "alias": {
-		"name": "Imaginary Forces"
+		"name": "East Man"
 	  },
 	  "location": "Tokyo",
-	  "date": "04.05.2016",
+	  "date": "05.05.2016",
 	  "club": {
 		"name": "Saloon"
 	  }
 	},
 	{
 	  "alias": {
-		"name": "Imaginary Forces"
+		"name": "East Man"
 	  },
 	  "location": "Nagoya",
 	  "date": "07.05.2016",
@@ -122,7 +52,7 @@
 	},
 	{
 	  "alias": {
-		"name": "Imaginary Forces"
+		"name": "East Man"
 	  },
 	  "location": "Osaka",
 	  "date": "08.05.2016",
@@ -142,17 +72,7 @@
 	},
 	{
 	  "alias": {
-		"name": "Imaginary Forces"
-	  },
-	  "location": "Berlin",
-	  "date": "26.08.2016",
-	  "club": {
-		"name": "Atonal"
-	  }
-	},
-	{
-	  "alias": {
-		"name": "Imaginary Forces"
+		"name": "East Man"
 	  },
 	  "location": "Milan",
 	  "date": "15.09.2016",
@@ -182,7 +102,7 @@
 	},
 	{
 	  "alias": {
-		"name": "Imaginary Forces"
+		"name": "East Man"
 	  },
 	  "location": "Bristol",
 	  "date": "22.11.2016",
@@ -192,7 +112,7 @@
 	},
 	{
 	  "alias": {
-		"name": "Imaginary Forces"
+		"name": "East Man"
 	  },
 	  "location": "Manchester",
 	  "date": "04.03.2017",
@@ -212,7 +132,7 @@
 	},
 	{
 	  "alias": {
-		"name": "Imaginary Forces"
+		"name": "East Man"
 	  },
 	  "location": "London",
 	  "date": "14.05.2017",
@@ -248,6 +168,106 @@
 	  "date": "21.10.2017",
 	  "club": {
 		"name": "L'international"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "East Man"
+	  },
+	  "location": "London",
+	  "date": "08.02.2018",
+	  "club": {
+		"name": "Corsica Studios"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Basic Rhythm"
+	  },
+	  "location": "London",
+	  "date": "17.05.2018",
+	  "club": {
+		"name": "Rye Wax"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "East Man"
+	  },
+	  "location": "London",
+	  "date": "17.05.2018",
+	  "club": {
+		"name": "Rye Wax"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "East Man"
+	  },
+	  "location": "Wroclaw",
+	  "date": "28.09.2018",
+	  "club": {
+		"name": "AAF"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "East Man"
+	  },
+	  "location": "Warsaw",
+	  "date": "06.10.2018",
+	  "club": {
+		"name": "AAF"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Basic Rhythm"
+	  },
+	  "location": "Berlin",
+	  "date": "08.11.2018",
+	  "club": {
+		"name": "Ohm"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "East Man"
+	  },
+	  "location": "London",
+	  "date": "01.12.2018",
+	  "club": {
+		"name": "The Old Church"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Basic Rhythm"
+	  },
+	  "location": "London",
+	  "date": "31.08.2019",
+	  "club": {
+		"name": "Saatchi Gallery"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "Basic Rhythm"
+	  },
+	  "location": "London",
+	  "date": "16.11.2019",
+	  "club": {
+		"name": "The Glove That Fits"
+	  }
+	},
+	{
+	  "alias": {
+		"name": "East Man"
+	  },
+	  "location": "Manchester",
+	  "date": "29.11.2019",
+	  "club": {
+		"name": "Band On The Wall"
 	  }
 	}
   ]

@@ -1,20 +1,48 @@
 {
-  "aliases": {
-	"0": {
+  "aliases": [
+	{
 	  "name": "East Man",
 	  "releases": {
 		"0": {
 		  "format": "LP",
 		  "label": {
-			"link": "planet.mu",
+			"link": "http://planet.mu",
 			"name": "Planet Mu"
 		  },
 		  "title": "Red, White & Zero",
-		  "year": "TBA"
+		  "year": "2018"
+		},
+		"1": {
+		  "format": "EP",
+		  "label": {
+			"link": "https://hiteksounds.bandcamp.com/",
+			"name": "Hi Tek Sounds"
+		  },
+		  "title": "Stop Flapping Your Gums Vol.1",
+		  "year": "2018"
+		},
+		"2": {
+		  "collaborators": "Walton",
+		  "format": "12\"",
+		  "label": {
+			"link": "https://hiteksounds.bandcamp.com/",
+			"name": "Hi Tek Sounds"
+		  },
+		  "title": "Horse Mouth",
+		  "year": "2019"
+		},
+		"3": {
+		  "format": "EP",
+		  "label": {
+			"link": "https://padrehimalaya.bandcamp.com/",
+			"name": "Padre Himalaya"
+		  },
+		  "title": "Eastern Code",
+		  "year": "2019"
 		}
 	  }
 	},
-	"1": {
+	{
 	  "name": "Basic Rhythm",
 	  "releases": {
 		"0": {
@@ -28,7 +56,7 @@
 		},
 		"1": {
 		  "collaborators": "Rabit",
-		  "format": "12\"",
+		  "format": "EP",
 		  "label": {
 			"link": "http://typerecords.com/",
 			"name": "Type"
@@ -37,15 +65,52 @@
 		  "year": "2016"
 		},
 		"2": {
-		  "format": "12\"",
+		  "format": "LP",
 		  "label": {
 			"link": "http://typerecords.com/",
 			"name": "Type"
 		  },
 		  "title": "The Basics",
 		  "year": "2017"
+		},
+		"3": {
+		  "format": "12\"",
+		  "label": {
+			"link": "http://warp.net/",
+			"name": "Arcola"
+		  },
+		  "title": "Dough Boy",
+		  "year": "2019"
+		},
+		"4": {
+		  "format": "EP",
+		  "label": {
+			"link": "https://sneakersocialclub.bandcamp.com/",
+			"name": "Sneaker Social Club"
+		  },
+		  "title": "New Style",
+		  "year": "2019"
+		},
+		"5": {
+		  "format": "LP",
+		  "label": {
+			"link": "http://planet.mu",
+			"name": "Planet Mu"
+		  },
+		  "title": "On The Threshold",
+		  "year": "2019"
+		},
+		"6": {
+		  "collaborators": "RP Boo",
+		  "format": "EP",
+		  "label": {
+			"link": "http://planet.mu",
+			"name": "Planet Mu"
+		  },
+		  "title": "2 Da Core",
+		  "year": "2019"
 		}
 	  }
 	}
-  }
+  ]
 }

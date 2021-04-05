@@ -1,10 +1,15 @@
 {{> global/head }}
 <body>
 <div class="container index">
-	<div class="index__image">
-		<a href="{{ link.url }}">
-			<img src="{{ image.url }}" alt="{{ image.name }}">
-		</a>
+	<div class="index__images">
+		{{#each images}}
+			<div class="index__images__image">
+				<a href="{{ link }}">
+					<img src="{{ url }}" alt="{{ name }}">
+				</a>
+			</div>
+		{{/each}}
+
 	</div>
 </div>
 {{> global/scripts }}

@@ -1,10 +1,14 @@
 {
-  "link": {
-	"name": "Entropy & Energy",
-	"url": "/home"
-  },
-  "image": {
-	"name": "Entropy & Energy",
-	"url": "/assets/images/entropy-and-energy.png"
-  }
+  "images": [
+	{
+	  "name": "Entropy & Energy",
+	  "url": "/assets/images/entropy-and-energy.png",
+	  "link": "/news/east-man"
+	},
+	{
+	  "name": "Entropy & Energy",
+	  "url": "/assets/images/entropy-and-energy-2.png",
+	  "link": "/news/basic-rhythm"
+	}
+  ]
 }
