@@ -8,10 +8,6 @@
 		  {
 			"link": "/basic-rhythm",
 			"name": "Basic Rhythm"
-		  },
-		  {
-			"link": "/east-man",
-			"name": "East Man"
 		  }
 		]
 	  },
@@ -22,6 +18,10 @@
 	  {
 		"link": "/discography",
 		"name": "Discography"
+	  },
+	  {
+		"link": "/miscellanea",
+		"name": "Miscellanea"
 	  },
 	  {
 		"link": "/biography",

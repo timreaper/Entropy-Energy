@@ -24,15 +24,13 @@
 		<li><a href="/news">News</a></li>
 		<li><a href="/events">Events</a></li>
 		<li><a href="/discography">Discography</a></li>
+		<li><a href="/miscellanea">Miscellanea</a></li>
 		<li><a href="/biography">Biography</a></li>
 		<li><a href="/contact">Contact</a></li>
 	</ul>
 	<ul style="margin-left: 90px;">
 		<li>
 			<a href="/news/basic-rhythm">Basic Rhythm</a>
-		</li>
-		<li>
-			<a href="/news/east-man">East Man</a>
 		</li>
 	</ul>
 	</nav>

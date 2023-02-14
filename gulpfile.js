@@ -16,6 +16,7 @@ var dataSrc = srcRoot + '/data';
 var pageDataSrc = dataSrc + '/pages';
 var fontSrc = srcRoot + '/fonts';
 var imageSrc = srcRoot + '/images';
+var videoSrc = srcRoot + '/videos';
 
 var jsApp = srcRoot + '/js/app';
 var jsLib = srcRoot + '/js/libraries';
@@ -40,6 +41,7 @@ var cssDest = distRoot + '/assets/css';
 var fontDest = distRoot + '/assets/fonts';
 var imageDest = distRoot + '/assets/images';
 var jsDest = distRoot + '/assets/js';
+var videoDest = distRoot + '/assets/videos'
 
 /**--------------------------------*
  * Variable Declarations (Requires)
@@ -225,6 +227,16 @@ gulp.task('images', function () {
 		}))
 		.pipe(gulp.dest(imageDest));
 });
+
+/**
+ * Videos
+ *      Deletes all videos in dist & then populates dist with videos from src
+ ***/
+gulp.task('videos', function () {
+	del([videoDest + '/**/*']); // Clean images folder repopulating
+	return gulp.src(videoSrc + '/**/*.{mov,mp4}')
+		.pipe(gulp.dest(videoDest));
+})
 
 /**
  * Javascript (App)

@@ -2,12 +2,11 @@
   "images": [
 	{
 	  "name": "Entropy & Energy",
-	  "url": "/assets/images/entropy-and-energy.png",
-	  "link": "/news/east-man"
-	},
-	{
-	  "name": "Entropy & Energy",
 	  "url": "/assets/images/entropy-and-energy-2.png",
+	  "video": {
+		"url": "/assets/videos/basic-rhythm-video.mov",
+		"thumbnail": "/assets/images/basic-rhythm-thumbnail.jpg"
+	  },
 	  "link": "/news/basic-rhythm"
 	}
   ]
