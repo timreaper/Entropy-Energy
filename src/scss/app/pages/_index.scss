@@ -2,6 +2,30 @@
 
 .index {
   position: relative;
+  width: 100%;
+
+  &__header-links {
+	color: white;
+	padding: 5px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	width: 200px;
+	justify-content: space-between;
+	align-items: center;
+
+	@media screen and (max-width: $screen-sm-min) {
+	  position: relative;
+	  margin: 0 auto;
+	}
+
+	&__link {
+	  display: inline-block;
+	  max-width: 30px;
+	  width: 100%;
+	}
+  }
 
   &__images {
 	position: fixed;

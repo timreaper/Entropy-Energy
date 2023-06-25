@@ -2,12 +2,39 @@
   "images": [
 	{
 	  "name": "Entropy & Energy",
-	  "url": "/assets/images/entropy-and-energy-2.png",
+	  "url": "/assets/images/basic-rhythm-thumbnail.jpg",
 	  "video": {
 		"url": "/assets/videos/basic-rhythm-video.mov",
 		"thumbnail": "/assets/images/basic-rhythm-thumbnail.jpg"
 	  },
 	  "link": "/news/basic-rhythm"
+	}
+  ],
+  "header-links": [
+	{
+	  "name": "Bandcamp",
+	  "url": "/assets/images/bandcamp-icon.svg",
+	  "link": "https://basicrhythm.bandcamp.com"
+	},
+	{
+	  "name": "SoundCloud",
+	  "url": "/assets/images/soundcloud-icon.svg",
+	  "link": "https://soundcloud.com/basicrhythm"
+	},
+	{
+	  "name": "Instagram",
+	  "url": "/assets/images/instagram-icon.svg",
+	  "link": "https://www.instagram.com/basic.rhythm/"
+	},
+	{
+	  "name": "YouTube",
+	  "url": "/assets/images/youtube-icon.svg",
+	  "link": "https://www.youtube.com/@basic.rhythm"
+	},
+	{
+	  "name": "Email",
+	  "url": "/assets/images/email-icon.svg",
+	  "link": "mailto:contact@entropyandenergy.com"
 	}
   ]
 }
