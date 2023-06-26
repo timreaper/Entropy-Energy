@@ -11,13 +11,13 @@
 	<div class="index__images">
 		{{#each images}}
 			<div class="index__images__image">
-				<!--				<a href="{{ link }}">-->
-				<img src="{{url}}" alt="{{name}}">
-				<!--					<video width="100%" autoplay loop>-->
-				<!--						<source src="{{video.url}}" type="video/mp4">-->
-				<!--						<img alt="{{name}}" src="{{video.thumbnail}}" title="Your browser does not support the <video> tag">-->
-				<!--					</video>-->
-				<!--				</a>-->
+				{{!-- <a href="{{ link }}"> --}}
+				<img src="{{url}}" alt="{{name}}" title="{{name}}">
+				{{!-- <video width="100%" autoplay loop> --}}
+				{{!-- <source src="{{video.url}}" type="video/mp4"> --}}
+				{{!-- <img alt="{{name}}" src="{{video.thumbnail}}" title="Your browser does not support the <video> tag"> --}}
+				{{!-- </video> --}}
+				{{!-- </a> --}}
 			</div>
 		{{/each}}
 	</div>

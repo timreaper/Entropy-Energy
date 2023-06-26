@@ -7,13 +7,15 @@
   &__header-links {
 	color: white;
 	padding: 5px;
-	position: absolute;
-	top: 0;
+	position: fixed;
+	bottom: 0;
 	right: 0;
 	display: flex;
-	width: 200px;
-	justify-content: space-between;
+	width: 100%;
 	align-items: center;
+	justify-content: center;
+	z-index: 1;
+	background-color: black;
 
 	@media screen and (max-width: $screen-sm-min) {
 	  position: relative;
@@ -24,6 +26,17 @@
 	  display: inline-block;
 	  max-width: 30px;
 	  width: 100%;
+	  margin: 0 10px;
+	  text-align: center;
+	  transition: opacity .5s;
+
+	  :hover {
+		opacity: 0.5;
+	  }
+
+	  img {
+		width: 100%;
+	  }
 	}
   }
 
@@ -43,10 +56,8 @@
 	}
 
 	&__image {
-	  padding: 10px;
 	  position: relative;
 	  display: inline-block;
-	  max-width: 50%;
 
 	  @media screen and (max-width: $screen-sm-min) {
 		max-width: 100%;
