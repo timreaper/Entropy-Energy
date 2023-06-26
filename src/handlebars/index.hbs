@@ -4,7 +4,7 @@
 	<div class="index__header-links">
 		{{#each header-links}}
 			<a href="{{ link }}" target="_blank" class="index__header-links__link">
-				<img src="{{url}}" alt="{{name}}">
+				<img src="{{url}}" alt="{{name}}" title="{{name}}">
 			</a>
 		{{/each}}
 	</div>
@@ -12,7 +12,7 @@
 		{{#each images}}
 			<div class="index__images__image">
 				{{!-- <a href="{{ link }}"> --}}
-				<img src="{{url}}" alt="{{name}}" title="{{name}}">
+				<img src="{{url}}" alt="{{name}}">
 				{{!-- <video width="100%" autoplay loop> --}}
 				{{!-- <source src="{{video.url}}" type="video/mp4"> --}}
 				{{!-- <img alt="{{name}}" src="{{video.thumbnail}}" title="Your browser does not support the <video> tag"> --}}
